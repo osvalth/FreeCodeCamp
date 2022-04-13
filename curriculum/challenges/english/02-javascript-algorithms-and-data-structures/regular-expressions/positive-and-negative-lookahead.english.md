@@ -88,7 +88,7 @@ let result = pwRegex.test(sampleWord);
 
 
 ```js
-var pwRegex =  /^\D(?=\w{5})(?=\w*\d{2})/;
+let pwRegex = /(?=\w{6,})(?=\D*\d{2})/;;
 ```
 
 </section>
